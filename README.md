@@ -48,4 +48,3 @@ crontab -e
 1. **Compression**: Archives `.log` files into a timestamped `.tar.gz` archive stored in a subdirectory called `artefacts`.
 2. **Truncation**: Clears the content of `.log` files after successful compression to free up disk space.
 3. **Cleanup**: Deletes `.tar.gz` files in the `artefacts` directory that are older than 14 days.
-
